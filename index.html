@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event hosting management system </title>
+    <style>
+        .heading{
+    text-align: center;
+    background-color: #efebed;
+    border : solid 3px wheat;
+}
+body{
+    background-image:url(https://img.freepik.com/free-photo/green-black-background-with-blue-background-that-says-green_1340-35620.jpg);
+    background-size: cover;
+
+}
+.headi{
+    color: wheat;  
+    font-size: xx-large;
+}
+.middle{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+.text {
+  font-size: x-large;
+  color:wheat;
+  font-family: cursive;
+   }
+.img{
+    transform: translate(50%,7%);
+    padding: 0%;
+    border: solid 5px wheat;
+}
+
+.middle2{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+.img2{
+    transform: translate(30%,30%);
+}
+.ji{
+font-size: xx-large;
+color:wheat;
+font-family: 'Times New Roman', Times, serif;
+}
+.text2{
+    color: wheat;
+}
+.head3{
+    font-size: x-large;
+    text-align: center;
+    color: wheat;
+}
+.text4{
+    color: white;
+}
+.info{
+    text-align: center;
+    color: goldenrod;
+}
+.img3{
+    transform: translate(0%,15%);
+}
+.matter{
+    color:wheat;
+}
+.line{
+    color: goldenrod;
+}
+.form-heading{
+    text-align: center;
+    color: wheat;
+}
+.form{
+    color:wheat;
+    text-align: center;
+    background: transparent;
+}
+.form-heading{
+    padding :5px;
+    border:3px solid wheat;
+    margin-left:400px;
+    margin-right:400px;
+    border-radius: 30px;
+}
+#id1{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:300px;
+    color: wheat;
+}
+#id2{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:300px;
+    color: wheat;
+}
+#id3{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:320px;
+    color: wheat;
+}
+#id4{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:320px;
+    color: wheat;
+}
+#id5{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:320px;
+    color: wheat;
+}
+#id6{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width:320px;
+    color: wheat;
+}
+#id7{
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: wheat;
+}
+#id8{
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: wheat;
+    color: wheat;
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+}
+.container{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: solid wheat 3px;
+    border-right: transparent;
+    margin-left: 400px;
+    border-radius: 300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 30px;
+}
+.t1{
+    color: wheat;
+    transform: translate(100px);
+}
+.img0{
+    transform: translate(40px,0PX);
+    margin-left: 200px;
+    border: solid 5px wheat;
+}
+.container1{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: solid wheat 3px;
+    border-left: transparent;
+    margin-right: 400px;
+    border-radius: 300px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 30px;
+}
+.t2{
+    color: wheat;
+    transform: translate(100px);
+}
+.img4{
+    transform: translate(40px,0PX);
+    border: solid 5px wheat;
+}
+.container2{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: solid wheat 3px;
+    border-right: transparent;
+    margin-left: 400px;
+    border-radius: 300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 30px;
+    
+}
+.t3{
+    color: wheat;
+    transform: translate(100px);
+}
+.img5{
+    transform: translate(40px,0PX);
+    margin-left: 200px;
+    border: solid 5px wheat;
+}
+.container3{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: solid wheat 3px;
+    border-left: transparent;
+    margin-right: 400px;
+    border-radius: 300px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 30px;
+}
+.t4{
+    color: wheat;
+    transform: translate(100px);
+}
+.img6{
+    transform: translate(40px,0PX);
+    border: solid 5px wheat;
+}
+.container4{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: solid wheat 3px;
+    border-right: transparent;
+    margin-left: 400px;
+    border-radius: 300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 30px;
+}
+.t5{
+    color: wheat;
+    transform: translate(100px);
+}
+.img7{
+    transform: translate(40px,0PX);
+    margin-left: 200px;
+    border: solid 5px wheat;
+}
+.bottom-g{
+    color:wheat;
+}
+hr.new1 {
+    border: 3px solid wheat;
+  }
+hr.new2 {
+    border: 1px solid wheat;
+  }
+  hr.new3{
+    border: 1px solid wheat;
+  }
+  hr.new4 {
+    border: 1px solid wheat;
+  }
+  hr.new5 {
+    border: 1px solid wheat;
+  }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <img src="https://th.bing.com/th/id/OIP.2GiIC0vaCjBQ1Tj8Is5JawAAAA?w=125&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="100"><h2>Shree Krishna Event Planner</h2></div>
+    </header>
+    <main>
+        <div class="middle">
+            <div class="text">
+        <h1><pre>
+
+  Event Planning 
+  Service 
+  provider
+
+        </pre></h1></div>
+<div class="img">
+<img src="https://img.freepik.com/free-photo/room-with-flowers_1417-1549.jpg?size=626&ext=jpg&ga=GA1.1.195828548.1698508428&semt=ais" height="400" alt="management">
+</div>
+</div>
+<br>
+<br>
+</header><hr class="new2">
+<div class="middle2">
+    <div class="img3">
+        <img src="https://cdn.socio.events/spai/q_glossy+w_966+to_avif+ret_img/socio.events/wp-content/uploads/2022/10/AdobeStock_240758729-2048x1146.jpeg" height="400" alt="events">
+    </div>
+    <div class="text2">
+        <div class="ji">
+        <h1><pre>
+     About us</pre></h1></div>
+        <h3><pre>
+         Welcome to Brindhavan media, a dynamic event management
+         company founded in 2023. With extensive expertise in
+         the event industry, we have played projects, including
+         numerous successful events.
+
+         Our journey has been marked by excellence, fueled by a
+         dedicated team of professionals who bring their best to
+         every project. From inception to execution, we take pride
+         in orchestrating seamless corporate events, ranging from
+         impactful brand launches to compelling product unveilings
+         and prestigious award ceremonies.
+        
+         In the realm of social events, our prowess shines as we 
+         curate memorable moments. From heartwarming engagements to 
+         grand receptions, we craft diverse and engaging experiences 
+         that leave a lasting impact.and our commitment to delivering 
+         excellence resonates through every event we undertake.
+        
+         Brindhavan Media is not just an event management company; we are 
+         your partners in transforming ideas into unforgettable
+         experiences.Join us in creating remarkable memories
+         that stand the test of time.
+    </pre></h3>
+</div>
+</div>
+<br>
+</header><hr class="new3">
+<div class="middle3">
+    <div class="head3"><h1>Our Services<h1></div></div></main>
+        <div class="container">
+<div class="img0">
+    <img src="https://rohanamedia.com/wp-content/uploads/2023/08/replicate-prediction-opwa7mjbjnhmn5ira7axvjmkxq.jpg" height="200"></div>
+    <div class="t1">
+        A wedding planner is a professional who assists with the design, planning and management of a client's wedding. Weddings are significant events in people's lives and as such, couples are often willing to spend considerable amount of money to ensure that their weddings are well-organized. Wedding planners are often used by couples who work long hours and have little spare time available for sourcing and managing wedding venues and wedding suppliers.
+    </div>
+</div>
+</div></div><br><br> 
+<div class="container1">
+    <div class="img4">
+        <img src="https://t3.ftcdn.net/jpg/02/11/32/78/240_F_211327865_m11wulYPWCMWZj96m7nRBf6IrR5A4Zug.jpg" height="200"></div>
+        <div class="t2">
+            A birthday is the anniversary of the birth of a person, or figuratively of an institution. Birthdays of people are celebrated in numerous cultures, often with birthday gifts, birthday cards, a birthday party, or a rite of passage.Many religions celebrate the birth of their founders or religious figures with special holidays (e.g. Christmas, Mawlid, Buddha's Birthday, and Krishna Janmashtami).
+        </div><br></div>
+        <br><br>
+        <div class="container2">
+            <div class="img5">
+                <img src="https://img.freepik.com/free-photo/groom-putting-ring-bride-s-finger_1157-338.jpg?size=626&ext=jpg&ga=GA1.1.195828548.1698508428&semt=sph" height="200"></div>
+                <div class="t3">
+                    An engagement or betrothal is the period of time between the declaration of acceptance of a marriage proposal and the marriage itself (which is typically but not always commenced with a wedding). During this period, a couple is said to be fiancés (from the French), betrothed, intended, affianced, engaged to be married, or simply engaged. Future brides and grooms may be called fiancée (feminine) or fiancé (masculine), the betrothed, a wife-to-be or husband-to-be, respectively. 
+                </div><br></div>
+                <br>
+                <br>
+                <div class="container3">
+            <div class="img6">
+                <img src="https://img.freepik.com/free-photo/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai_188544-37983.jpg?size=626&ext=jpg&ga=GA1.1.195828548.1698508428&semt=sph" height="200"></div>
+                <div class="t4">
+                    A concert is a live music performance in front of an audience.[1] The performance may be by a single musician, sometimes then called a recital, or by a musical ensemble, such as an orchestra, choir, or band. Concerts are held in a wide variety and size of settings, from private houses and small nightclubs, dedicated concert halls, amphitheatres and parks, to large multipurpose buildings, such as arenas and stadiums. Indoor concerts held in the largest venues are sometimes called arena concerts
+                </div><br></div>
+                <br>
+                <br>
+                <div class="container4">
+                    <div class="img7">
+                        <img src="https://img.freepik.com/free-vector/party-crowd-silhouettes-dancing-nightclub_1048-11557.jpg?size=626&ext=jpg&ga=GA1.1.195828548.1698508428&semt=sph" height="200"></div>
+                        <div class="t5">
+                            A party is a gathering of people who have been invited by a host for the purposes of socializing, conversation, recreation, or as part of a festival or other commemoration or celebration of a special occasion. A party will often feature food and beverages, and often conversation, music, dancing, or other forms of entertainment.
+                        </div><br></div>
+<br><br><hr class="new4"><br>
+    <div class="form-heading" >
+        <h1>To Book Events Enter your details</h1>
+    <div class="form">
+        <label for="id1">First Name:</label>
+        <input type="text" name="name" id="id1"><br><br><br>
+        <label for="id2">Last Name:</label>
+        <input type="text" name="name" id="id2"><br><br><br>
+        <label for="id3">Mobile:</label>
+        <input type="text" name="Mobile" id="id3"><br><br><br>
+        <label for="id4">E-mail:</label>
+        <input type="text" name="E-mail" id="id4"><br><br><br>
+        <label for="id5">Address:</label>
+        <input type="text" name="Address" id="id5"><br><br><br>
+        <label type="id7">Event Type:</label>
+        <select id="id7" name="event type">
+            <option value="birthday">Birthday</option>
+            <option value="marriage">marriage</option>
+            <option value="engagement">engagement</option>
+            <option value="concerts">concert</option>
+            <option value="meetings">meeting</option>
+            <option value="party">party</option>
+        </select>
+        <br>
+        <br>
+        <label id="id8"></label>
+        <input type="button" name="submit" value="submit" id="id8">
+    </div></div>
+    <br><hr class="new5"><br>
+    <footer>
+        <div class="bottom-g">
+            <h1>contact:</h1>
+            <h3>Mobile no: +91 9525859545</h3>
+            <h3>E-mail: ankushanand114@gmail.com@gmail.com</h3>
+            <h3>Adress: Saharbanni, Khagaria, Bihar, 848203</h3>
+            <h3>Instagram: theillogicalraj</h3>
+            
+            <h3></h3>
+        </div>
+    </footer></body></html>
